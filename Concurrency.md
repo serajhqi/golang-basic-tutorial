@@ -20,3 +20,11 @@ func main(){
 ```
 
 Without WaitGroup the main function gets executed and finishes and nothing gets printed.
+
+
+## runtime.GOMAXPROCS()
+Defines how many cpu cors works.
+example:
+```go
+runtime.GOMAXPROCS(4)
+```
